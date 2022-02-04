@@ -98,9 +98,9 @@ class PaymentController extends Controller
                                     <Amount>'.$order_data['amount'].'</Amount>
                                     <Currency>'.$order_data['currency'].'</Currency>
                                     <Description>'.$order_data['description'].'</Description>
-                                    <ApproveURL>https://fasteks.az/api/kapital/approve/'.Auth::guard('tuser')->user()->id.'</ApproveURL>
-                                    <CancelURL>https://fasteks.az/api/kapital/cancel/'.Auth::guard('tuser')->user()->id.'</CancelURL>
-                                    <DeclineURL>https://fasteks.az/api/kapital/decline/'.Auth::guard('tuser')->user()->id.'</DeclineURL>
+                                    <ApproveURL>https://mywebsite.az/api/kapital/approve/'.Auth::guard('tuser')->user()->id.'</ApproveURL>
+                                    <CancelURL>https://mywebsite.az/api/kapital/cancel/'.Auth::guard('tuser')->user()->id.'</CancelURL>
+                                    <DeclineURL>https://mywebsite.az/api/kapital/decline/'.Auth::guard('tuser')->user()->id.'</DeclineURL>
                               </Order>
                       </Request>
                 </TKKPG>
